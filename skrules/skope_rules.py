@@ -8,7 +8,7 @@ from warnings import warn
 from sklearn.base import BaseEstimator
 from sklearn.utils.validation import check_X_y, check_array, check_is_fitted
 from sklearn.utils.multiclass import check_classification_targets
-from sklearn.utils import indices_to_mask
+from sklearn.utils._mask import indices_to_mask
 from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
 from sklearn.ensemble import BaggingClassifier, BaggingRegressor
 from sklearn.tree import _tree
